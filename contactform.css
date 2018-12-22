@@ -1,3 +1,5 @@
+@import "node_modules/@hh.ru/bloko/build/bloko/blocks/icon/icon";
+
 .viewport {
     position: absolute;
     left: 0;
@@ -24,10 +26,49 @@
 .contact-info {
     background-color: #333333;
     width: 40%;
-    height: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
 }
 
 .contact-form {
     background-color: #FEFEFE;
     width: 60%;
+    height: 500px; /*tmp*/
+}
+
+.contact-info-item {
+    margin: auto auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.contact-info-item__icon {
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*background: blue;*/
+}
+
+.bloko-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: 0 0 no-repeat;
+    vertical-align: middle;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("res/font/Poppins-Regular.ttf");
+}
+
+.contact-info-item__title {
+    color: #FEFEFE;
+    font-family: Poppins-Regular;
 }

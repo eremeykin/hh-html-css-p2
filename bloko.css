@@ -1,0 +1,16 @@
+.bloko-icon_change-position {
+    background-image: url("res/icons/bloko/change-position-icon.svg");
+}
+
+.bloko-icon_phone {
+    background-image: url("res/icons/bloko/phone-icon.svg");
+}
+
+.bloko-icon_mail-outline {
+    background-image: url("res/icons/bloko/mail-outline-icon.svg");
+}
+
+.bloko-icon_initial-inverted {
+    background-position: -18px 0;
+    opacity: 1;
+}
