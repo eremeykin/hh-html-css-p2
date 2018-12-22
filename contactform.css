@@ -5,6 +5,29 @@
     right: 0;
     bottom: 0;
     display: flex;
-    background: linear-gradient(to bottom, rgba(29,131,206,1) 0%,rgba(35,145,155,0.25) 50%,rgba(41,159,103,1) 100%), url("res/main-background.jpg") center;
+    background: linear-gradient(to bottom, rgba(29, 131, 206, 1) 0%, rgba(35, 145, 155, 0.25) 50%, rgba(41, 159, 103, 1) 100%), url("res/main-background.jpg") center;
     background-size: cover;
+}
+
+.modal-wrapper {
+    background: white;
+    position: relative;
+    display: inline-block;
+    width: 1120px;
+    margin: auto auto;
+}
+
+.modal {
+    display: flex;
+}
+
+.contact-info {
+    background-color: #333333;
+    width: 40%;
+    height: 100px;
+}
+
+.contact-form {
+    background-color: #FEFEFE;
+    width: 60%;
 }
