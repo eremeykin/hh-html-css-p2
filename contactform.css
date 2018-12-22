@@ -1,0 +1,10 @@
+.viewport {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background: linear-gradient(to bottom, rgba(29,131,206,1) 0%,rgba(35,145,155,0.25) 50%,rgba(41,159,103,1) 100%), url("res/main-background.jpg") center;
+    background-size: cover;
+}
