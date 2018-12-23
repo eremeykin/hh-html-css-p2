@@ -112,8 +112,8 @@
   height: 55px;
   border: none;
   box-shadow: 1px 0 0 0 #E5E5E5, 0 1px 0 0 #E5E5E5,
-              1px 1px 0 0 #E5E5E5, 1px 0 0 0 #E5E5E5 inset,
-              0 1px 0 0 #E5E5E5 inset;;
+  1px 1px 0 0 #E5E5E5, 1px 0 0 0 #E5E5E5 inset,
+  0 1px 0 0 #E5E5E5 inset;;
   position: relative;
   outline: none;
 }
@@ -128,9 +128,13 @@
 
 .contact-form__button {
   color: #FEFEFE;
-  background: #19AC62;
+  background: #00ad5f;
   height: 50px;
   margin-top: 23px;
+}
+
+.contact-form__button:hover {
+  background: #333333;
 }
 
 .contact-form__content {
