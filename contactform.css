@@ -149,6 +149,12 @@
     flex-direction: column;
 }
 
+@media screen and (max-width: 1120px) {
+    .modal-wrapper {
+        width: 95%;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .contact-form {
         width: 60%;
@@ -167,6 +173,12 @@
     }
 }
 
+@media screen and (max-width: 1120px) {
+    .modal-wrapper {
+        width: 95%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .modal {
         flex-direction: column;
@@ -179,11 +191,40 @@
     .contact-form {
         order: 1;
         width: 100%;
+        padding-left: 30px;
     }
 
     .contact-info {
         order: 2;
         width: 100%;
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 30px;
     }
 
+    .contact-info-item {
+        margin-left: auto;
+        margin-right: auto;
+        width: unset;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .modal-wrapper {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .modal-wrapper {
+        width: 95%;
+    }
+
+    .contact-form {
+        order: 1;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
