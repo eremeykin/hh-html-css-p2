@@ -3,6 +3,11 @@
   src: url("res/font/Poppins-Regular.ttf");
 }
 
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("res/font/Montserrat-Bold.ttf");
+}
+
 @keyframes outline {
   from {
     outline-offset: 12px;
@@ -131,6 +136,7 @@
   background: #00ad5f;
   height: 50px;
   margin-top: 23px;
+  font-family: 'Montserrat-Bold', sans-serif;
 }
 
 .contact-form__button:hover {
