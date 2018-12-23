@@ -1,3 +1,14 @@
+.bloko-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: 0 0 no-repeat;
+    vertical-align: middle;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+}
+
 .bloko-icon_change-position {
     background-image: url("res/icons/bloko/change-position-icon.svg");
 }
