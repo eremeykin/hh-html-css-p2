@@ -222,4 +222,8 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+  .contact-form__line{
+    flex-direction: column;
+  }
+
 }
